@@ -21,6 +21,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
 #hero .hero--title h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -30,6 +31,7 @@ a {
   padding: 20px 0;
   color: #222222;
 }
+
 #hero .hero--title p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -39,6 +41,7 @@ a {
   color: #222222;
   padding: 20px 0;
 }
+
 #hero .hero--title button {
   font-weight: 400;
   font-size: 14px;
@@ -52,9 +55,8 @@ a {
   margin: 20px 7px;
   transition: 0.4s;
 }
+
 #hero .hero--title button:hover {
   transform: scale(1.1);
   background: black;
 }
-
-/*# sourceMappingURL=style.css.map */
