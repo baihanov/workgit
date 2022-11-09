@@ -9,3 +9,43 @@
 a{
   text-decoration: none;
 }
+body {
+  font-family: 'Poppins',sans-serif;
+}
+
+#header {
+  background: rgba(34, 34, 34, 0.02);
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    &--title {
+      a {
+        font-weight: 400;
+        font-size: 15px;
+        color: #666666;
+        padding: 0 20px;
+      }
+
+      button {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #222222;
+        border-radius: 4px;
+        padding: 10px 20px;
+      }
+
+      button:hover {
+        transition: .4s;
+        background: rgba(34, 34, 34, 0.42);
+
+        cursor: pointer;
+      }
+    }
+  }
+}
